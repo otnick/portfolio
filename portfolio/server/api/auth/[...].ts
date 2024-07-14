@@ -1,6 +1,6 @@
 import { NuxtAuthHandler } from '#auth'
 import GithubProvider from 'next-auth/providers/github'
-import CredentialsProvider from 'next-auth/providers/credentials'
+import CredentialsProvider from 'next-auth/providers/credentials' 
 
 export default NuxtAuthHandler({
     providers: [
@@ -43,5 +43,6 @@ export default NuxtAuthHandler({
               }
             }
           })
-    ]
+    ],
+    secret: AUTH_SECRET,
 })
