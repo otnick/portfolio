@@ -178,7 +178,7 @@ const submitForm = handleSubmit(
                             </div>
                         </section>
                         <NuxtLink to="/impressum">
-                            <button class="custom-button w-1/6">Impressum</button>
+                            <button class="custom-button fixed bottom-10 left-10">Impressum</button>
                         </NuxtLink>
                     </div>
                 </div>
